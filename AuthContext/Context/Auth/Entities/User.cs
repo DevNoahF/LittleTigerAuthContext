@@ -8,10 +8,13 @@ public class User
 
     public Password Password { get; private set; }
 
-    public User(Email email, Password password)
+    public String Jwt { get; set; }
+
+    public User(Email email, Password password, String jwt)
     {
         Email = email;
         Password = password;
+        Jwt = jwt;
     }
     
     
