@@ -9,8 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15dad83a-9542-4493-a8fa-74926f82cc05" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/AuthContext/AuthContext.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/AuthContext.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthContext/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AuthContext/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AuthContext/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/Context/Auth/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/Context/Auth/Entities/User.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="79" />
+    <option name="cachedIndexableFilesCount" value="15" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,11 +46,14 @@
     <setting file="file://$PROJECT_DIR$/AuthContext/Context/Auth/Persistence/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AuthContext/Context/Auth/Repositories/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AuthContext/Context/Auth/UseCases/LoginUserCase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AuthContext/Context/Auth/ValueObject/Email.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AuthContext/Context/Auth/ValueObject/Password.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -119,15 +122,64 @@
       <option name="presentableId" value="Default" />
       <updated>1774914645035</updated>
       <workItem from="1774914647921" duration="1401000" />
+      <workItem from="1774916125664" duration="1778000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: set up ASP.NET Core web application with Swagger support">
+      <option name="closed" value="true" />
+      <created>1774916374372</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774916374372</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: update project configuration files with encoding and run settings">
+      <option name="closed" value="true" />
+      <created>1774916389393</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774916389393</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add Entity Framework Core and Swagger package references to project">
+      <option name="closed" value="true" />
+      <created>1774916394782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774916394782</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add Email value object and update User class with email and password properties">
+      <option name="closed" value="true" />
+      <created>1774917483076</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774917483076</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add Password value object with validation rules">
+      <option name="closed" value="true" />
+      <created>1774917642336</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774917642336</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="feat: set up ASP.NET Core web application with Swagger support" />
+    <MESSAGE value="feat: update project configuration files with encoding and run settings" />
+    <MESSAGE value="feat: add Entity Framework Core and Swagger package references to project" />
+    <MESSAGE value="feat: add Email value object and update User class with email and password properties" />
+    <MESSAGE value="feat: add Password value object with validation rules" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add Password value object with validation rules" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
