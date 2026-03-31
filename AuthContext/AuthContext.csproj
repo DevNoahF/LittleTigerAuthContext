@@ -7,11 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
-      <Folder Include="Models\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <_ContentIncludedByDefault Remove="wwwroot\css\site.css" />
       <_ContentIncludedByDefault Remove="wwwroot\favicon.ico" />
       <_ContentIncludedByDefault Remove="wwwroot\js\site.js" />
@@ -75,6 +70,14 @@
       <_ContentIncludedByDefault Remove="wwwroot\lib\jquery\dist\jquery.slim.min.js" />
       <_ContentIncludedByDefault Remove="wwwroot\lib\jquery\dist\jquery.slim.min.map" />
       <_ContentIncludedByDefault Remove="wwwroot\lib\jquery\LICENSE.txt" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.5" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="10.1.7" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="10.1.7" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.1.7" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.17.0" />
     </ItemGroup>
 
 </Project>
