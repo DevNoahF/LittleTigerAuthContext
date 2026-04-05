@@ -1,6 +1,8 @@
-﻿namespace AuthContext.Context.Auth.Persistence;
-
-public interface DbContext
+﻿namespace AuthContext.Context.Auth.Persistence
 {
-    
+    public class DbContext
+    {
+
+
+    }
 }
