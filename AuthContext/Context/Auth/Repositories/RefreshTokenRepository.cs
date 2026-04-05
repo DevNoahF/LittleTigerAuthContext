@@ -1,4 +1,5 @@
 ﻿using AuthContext.Context.Auth.Entities;
+using AuthContext.Context.Auth.Interfaces;
 using AuthContext.Context.Auth.Persistence;
 
 namespace AuthContext.Context.Auth.Repositories

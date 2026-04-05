@@ -1,4 +1,6 @@
-﻿namespace AuthContext.Context.Auth.Interfaces
+﻿using AuthContext.Context.Auth.Entities;
+
+namespace AuthContext.Context.Auth.Interfaces
 {
     public interface IRefreshTokenRepository
     {
