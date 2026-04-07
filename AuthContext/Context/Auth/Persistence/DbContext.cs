@@ -14,11 +14,9 @@ public class AuthDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        base.OnModelCreating(modelBuilder);
-
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(u => u.Email);
+            entity.HasKey(u => u.Id);
             
             entity.Property(u => u.Email)
                 .HasConversion(
@@ -37,5 +35,7 @@ public class AuthDbContext : DbContext
                 .IsRequired(false)
                 .HasMaxLength(50);
         });
+        
+        base.OnModelCreating(modelBuilder);
     }
 }

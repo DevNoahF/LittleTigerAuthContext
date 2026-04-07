@@ -1,6 +1,6 @@
 ﻿using AuthContext.Context.Auth.DTOs;
 using AuthContext.Context.Auth.UseCases;
-using Microsoft.AspNetCore.Identity.Data;
+using AuthContext.Context.Mappers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AuthContext.Context.Auth.Controller;
@@ -12,17 +12,26 @@ public class AuthController : ControllerBase
 {
     private readonly LoginUseCase _loginUseCase;
 
-    public AuthController(LoginUseCase loginUseCase)
+    public AuthController(LoginUseCase loginUseCase
+        )
     {
         _loginUseCase = loginUseCase;
+
     }
 
     [HttpPost("login")]
-    public IActionResult Login([FromBody] LoginRequest request)
+    public IActionResult Login([FromBody] UserResquestDTO request)
     {
-        var userRequest = new UserResquestDTO(request.Email, request.Password);
-        var result = _loginUseCase.Execute(userRequest);
-        return Ok(result);
+        if(request.email == null)
+            return BadRequest("Email is required.");
+        if(request.password == null)
+            return BadRequest("Password is required.");
+        var result = _loginUseCase.Execute(request);
+        return Ok();
+
+
+
+
     }
 }
 
