@@ -1,12 +1,10 @@
-﻿using AuthContext.Context.Auth.Entities;
+﻿using AuthContext.Context.Auth.DTOs;
 
 namespace AuthContext.Context.Auth.Interfaces
 {
 
     public interface IUserRepository
     {
-        public string Login();//Retornar token JWT
-        public void Logout(); //vai retornar que foi feito logout?
-        public void RefreshToken();//Tem que implementar Refresh Token!
+        public string Login(UserResquestDTO request);//Retornar token JWT
     }
 }

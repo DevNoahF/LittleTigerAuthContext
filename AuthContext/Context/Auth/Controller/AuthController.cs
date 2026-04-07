@@ -1,4 +1,6 @@
-﻿using AuthContext.Context.Auth.Interfaces;
+﻿using AuthContext.Context.Auth.DTOs;
+using AuthContext.Context.Auth.UseCases;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AuthContext.Context.Auth.Controller;
@@ -8,10 +10,20 @@ namespace AuthContext.Context.Auth.Controller;
 
 public class AuthController : ControllerBase
 {
-    private readonly IRefreshTokenRepository _refreshTokenRepository;
+    private readonly LoginUseCase _loginUseCase;
 
-    public AuthController(IRefreshTokenRepository refreshTokenRepository)
+    public AuthController(LoginUseCase loginUseCase)
     {
-        _refreshTokenRepository = refreshTokenRepository;
+        _loginUseCase = loginUseCase;
+    }
+
+    [HttpPost("login")]
+    public IActionResult Login([FromBody] LoginRequest request)
+    {
+        var userRequest = new UserResquestDTO(request.Email, request.Password);
+        var result = _loginUseCase.Execute(userRequest);
+        return Ok(result);
     }
 }
+
+

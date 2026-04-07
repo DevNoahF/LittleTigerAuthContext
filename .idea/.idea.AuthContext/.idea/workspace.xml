@@ -9,7 +9,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15dad83a-9542-4493-a8fa-74926f82cc05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthContext/Context/Auth/DTOs/UserResponseDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthContext/Context/Auth/DTOs/UserResquestDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthContext/Context/Auth/Mappers/UserMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuthContext/Context/Auth/UseCases/JwtGeneratorUseCase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AuthContext/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AuthContext/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AuthContext/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AuthContext/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AuthContext/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/AuthContext.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/AuthContext.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/Context/Auth/Controller/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/Context/Auth/Controller/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/Context/Auth/Entities/RefreshToken.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/AuthContext/Context/Auth/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/Context/Auth/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/Context/Auth/Interfaces/IRefreshTokenRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/Context/Auth/Interfaces/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/Context/Auth/Interfaces/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/Context/Auth/Persistence/DbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/Context/Auth/Persistence/DbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/Context/Auth/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/Context/Auth/Repositories/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/Context/Auth/Repositories/RefreshTokenRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/Context/Auth/UseCases/LoginUserCase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/Context/Auth/UseCases/LoginUseCase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/Context/Auth/ValueObject/Email.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/Context/Auth/ValueObject/Email.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/Context/Auth/ValueObject/Password.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/Context/Auth/ValueObject/Password.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthContext/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AuthContext/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +44,18 @@
       <entry key="_C:/Users/noah/RiderProjects/AuthContext" value="3BgdS5dVWzigSNQozf3f94VwJnQ" />
     </persistenceIdMap>
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="15" />
+    <option name="cachedIndexableFilesCount" value="25" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Feat-Add-login" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -40,14 +71,19 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/251361482a1fa2bee4c1279ae3327ec461c81eac80b589209b48dc04f9b/LoginRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AuthContext/Context/Auth/Controller/AuthController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AuthContext/Context/Auth/DTOs/UserResquestDTO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AuthContext/Context/Auth/Entities/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AuthContext/Context/Auth/Persistence/DbContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AuthContext/Context/Auth/Repositories/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AuthContext/Context/Auth/UseCases/LoginUserCase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AuthContext/Context/Auth/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AuthContext/Context/Auth/ValueObject/Email.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AuthContext/Context/Auth/ValueObject/Password.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -61,25 +97,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.AuthContext: http.executor": "Run",
+    ".NET Launch Settings Profile.AuthContext: https.executor": "Run",
+    "Docker.compose.yaml.postgres: Compose Deployment.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.AuthContext: http">
+}]]></component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.AuthContext: https">
     <configuration name="AuthContext: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/AuthContext/AuthContext.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
@@ -112,6 +151,69 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="AuthContext/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="authcontext" />
+          <option name="containerName" value="authcontext" />
+          <option name="contextFolderPath" value="C:\Users\noah\RiderProjects\AuthContext" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8080" />
+                <option name="hostIp" value="127.0.0.1" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="AuthContext/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compose.yaml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="postgres" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.compose.yaml.postgres: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -121,7 +223,10 @@
       <option name="presentableId" value="Default" />
       <updated>1774914645035</updated>
       <workItem from="1774914647921" duration="1401000" />
-      <workItem from="1774916125664" duration="2273000" />
+      <workItem from="1774916125664" duration="5611000" />
+      <workItem from="1775515381794" duration="2705000" />
+      <workItem from="1775518131266" duration="2098000" />
+      <workItem from="1775520283882" duration="954000" />
     </task>
     <task id="LOCAL-00001" summary="feat: set up ASP.NET Core web application with Swagger support">
       <option name="closed" value="true" />
@@ -179,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774917935785</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: add Jwt property to User class and update constructor">
+      <option name="closed" value="true" />
+      <created>1774918424147</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1774918424147</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +300,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="feat: set up ASP.NET Core web application with Swagger support" />
@@ -196,7 +320,8 @@
     <MESSAGE value="feat: add Password value object with validation rules" />
     <MESSAGE value="feat: add Email and Password properties to User class with constructor" />
     <MESSAGE value="feat: update workspace configuration and task metadata in project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: update workspace configuration and task metadata in project files" />
+    <MESSAGE value="feat: add Jwt property to User class and update constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add Jwt property to User class and update constructor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

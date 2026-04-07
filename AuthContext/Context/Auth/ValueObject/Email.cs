@@ -2,9 +2,9 @@
 
 public class Email
 {
-    public String Value { get; private set; }
+    public string Value { get; private set; }
     
-    public  Email(String value)
+    public  Email(string value)
     {
         if (string.IsNullOrWhiteSpace(value) || string.IsNullOrWhiteSpace(value))
             throw new Exception("Email is required");
